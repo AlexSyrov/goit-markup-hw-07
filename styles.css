@@ -33,6 +33,11 @@ a {
   text-decoration: none;
 }
 
+.link {
+  padding: 0;
+  border: none;
+  position: relative;
+}
 .head-container {
   margin-left: auto;
   margin-right: auto;
@@ -170,11 +175,6 @@ a {
   transition: color 250ms var(--cubic);
 }
 
-.link {
-  padding: 0;
-  border: none;
-}
-
 .e-t-icon-envelope {
   width: 16px;
   height: 12px;
@@ -207,10 +207,6 @@ a {
 }
 .site-nav .link.current {
   color: var(--accent-color);
-}
-
-.link {
-  position: relative;
 }
 
 .current::after {
@@ -497,10 +493,10 @@ textarea {
   display: flex;
   justify-content: center;
 }
-.button-check .item {
+.button-check .b-item {
   margin-right: 8px;
 }
-.button-check .item:last-child {
+.button-check .b-item:last-child {
   margin-right: 0;
 }
 
