@@ -664,7 +664,7 @@ pre {
   font-size: 16px;
   line-height: 1.19;
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 10px;
 }
 .info-container {
   background-color: var(--white-color);
@@ -847,16 +847,19 @@ pre {
   margin-left: 10px;
 }
 
-.developed {
-  color: rgba(255, 255, 255, 40%);
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 2;
-  margin-bottom: 0;
-
-  text-align: center;
+.f-img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
+.f-snl {
+  margin-right: 10px;
+}
+
+.f-link > li:last-child {
+  margin-right: 0;
+}
+
 /* portfolio page */
 
 .portfolio {
@@ -970,22 +973,7 @@ pre {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.f-head {
-  margin-bottom: 93px;
-}
 
 .portfolio-filters {
   margin-bottom: 50px;
-}
-.f-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-.f-snl {
-  margin-right: 10px;
-}
-
-.f-link > li:last-child {
-  margin-right: 0;
 }
