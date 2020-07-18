@@ -1,3 +1,8 @@
+.f-link {
+  display: flex;
+  align-items: center;
+}
+
 .box {
   background-color: $footer-color;
 }
@@ -33,12 +38,13 @@
   font-size: 14px;
   line-height: 24px;
   transition: color 250ms $cubic;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
 }
 
-.f-site-nav .f-link:hover,
-.f-site-nav .f-link:focus {
-  color: $accent-color;
-}
 .conecting {
   width: calc((100% - 60px) / 4);
 }
@@ -60,14 +66,14 @@
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background-color: rgba(255, 255, 255, 10%);
+  background-color: rgba(255, 255, 255, 0.1);
   fill: $white-color;
   transition: background-color 250ms $cubic;
-}
 
-.f-socialnet-link:hover,
-.f-socialnet-link:focus {
-  background-color: $accent-color;
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+  }
 }
 
 .f-form-field input {
