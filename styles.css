@@ -960,6 +960,10 @@ pre {
   margin-bottom: 20px;
 }
 
+.portfolio-filters {
+  margin-bottom: 50px;
+}
+
 .f-heading {
   margin-top: 0;
   margin-bottom: 0;
@@ -972,8 +976,4 @@ pre {
   padding: 0px;
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
-
-.portfolio-filters {
-  margin-bottom: 50px;
 }
